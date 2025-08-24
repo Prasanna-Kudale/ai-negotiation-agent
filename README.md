@@ -90,36 +90,3 @@ npm run deploy
 Your frontend will be live at: `https://YOUR_USERNAME.github.io/negotiator-ai`
 
 **Note:** The backend API won't work on GitHub Pages since it only hosts static files. For a working demo, you'll need to deploy the backend separately to a service like Render or Railway.
-
-## **Step 7: Keep Your Project Updated**
-
-Regular workflow for future improvements:
-
-```bash
-# Make changes to your code
-git add .
-git commit -m "Add new feature: [describe what you added]"
-git push origin main
-
-# For frontend updates to GitHub Pages
-npm run deploy
-```
-
-## **Benefits of Having Your Project on GitHub:**
-
-✅ **Version Control** - Track all your changes and improvements  
-✅ **Backup** - Your code is safely stored in the cloud  
-✅ **Portfolio Piece** - Shows your full-stack development skills  
-✅ **Open Source** - Others can learn from your code  
-✅ **Collaboration** - Easy to work with others in the future  
-✅ **Documentation** - README serves as project documentation  
-✅ **Issue Tracking** - Keep track of bugs and feature requests  
-
-## **Pro Tips for GitHub Success:**
-
-- **Commit often** with clear, descriptive messages
-- **Use branches** for new features (`git checkout -b feature-name`)
-- **Write good documentation** in your README
-- **Add screenshots** of your app in action
-- **Use GitHub Issues** to track what you want to build next
-- **Add topics/tags** to your repo for discoverability
